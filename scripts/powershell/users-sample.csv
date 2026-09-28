@@ -1,0 +1,11 @@
+FirstName,LastName,SamAccountName,UserPrincipalName,Email,Department,JobTitle,OU,InitialPassword,MustChangePassword,CannotChangePassword,GroupName
+Andre,Luis,andre.luis,andre.luis@corp.senai.local,andre.luis@corp.senai.local,TI,Engenheiro de Seguranca,Departamentos/TI,S3cur3P@ssw0rd!2026,false,true,GRP_TI
+Maria,Gabriella,maria.gabriella,maria.gabriella@corp.senai.local,maria.gabriella@corp.senai.local,RecursosHumanos,Especialista de RH,Departamentos/RecursosHumanos,S3cur3P@ssw0rd!2026,false,true,GRP_RecursosHumanos
+Julia,Silva,julia.silva,julia.silva@corp.senai.local,julia.silva@corp.senai.local,Financeiro,Analista Financeiro Senior,Departamentos/Financeiro,S3cur3P@ssw0rd!2026,false,true,GRP_Financeiro
+Thales,Costa,thales.costa,thales.costa@corp.senai.local,thales.costa@corp.senai.local,Administracao,Gerente de Operacoes,Departamentos/Administracao,S3cur3P@ssw0rd!2026,false,true,GRP_Administracao
+Carlos,Eduardo,prof.carlos,prof.carlos@corp.senai.local,prof.carlos@corp.senai.local,Educacional,Professor de Redes e Seguranca,Educacional/Professores,S3cur3P@ssw0rd!2026,false,true,GRP_Educacional-Professores
+Fernanda,Lima,prof.fernanda,prof.fernanda@corp.senai.local,prof.fernanda@corp.senai.local,Educacional,Professora de Desenvolvimento,Educacional/Professores,S3cur3P@ssw0rd!2026,false,true,GRP_Educacional-Professores
+Lucas,Mendes,aluno.lucas,aluno.lucas@corp.senai.local,aluno.lucas@corp.senai.local,Educacional,Aluno de Ciberseguranca,Educacional/Alunos,S3cur3P@ssw0rd!2026,false,true,GRP_Educacional-Alunos
+Beatriz,Rocha,aluna.beatriz,aluna.beatriz@corp.senai.local,aluna.beatriz@corp.senai.local,Educacional,Aluna de Redes,Educacional/Alunos,S3cur3P@ssw0rd!2026,false,true,GRP_Educacional-Alunos
+Guilherme,Santos,aluno.guilherme,aluno.guilherme@corp.senai.local,aluno.guilherme@corp.senai.local,Educacional,Aluno de Desenvolvimento,Educacional/Alunos,S3cur3P@ssw0rd!2026,false,true,GRP_Educacional-Alunos
+Mariana,Alves,aluna.mariana,aluna.mariana@corp.senai.local,aluna.mariana@corp.senai.local,Educacional,Aluna de Seguranca da Informacao,Educacional/Alunos,S3cur3P@ssw0rd!2026,false,true,GRP_Educacional-Alunos

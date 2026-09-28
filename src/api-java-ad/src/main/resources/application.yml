@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: api-java-ad
+  ldap:
+    urls: ${LDAP_URL:ldap://127.0.0.1:389}
+    base: ${LDAP_BASE:dc=corp,dc=senai,dc=local}
+    username: ${LDAP_USERNAME:cn=Administrator,cn=Users,dc=corp,dc=senai,dc=local}
+    password: ${LDAP_PASSWORD:S3cur3P@ssw0rd!2026}
+
+server:
+  port: 8080
+
+app:
+  ldap:
+    search-base: OU=SenaiCorp
+    default-user-ou: OU=Alunos,OU=Educacional,OU=SenaiCorp,DC=corp,DC=senai,DC=local
+    upn-domain: corp.senai.local
+    referral: ignore
+  security:
+    api-username: admin_api
+    api-password: ${API_AUTH_PASSWORD:AdminSecret2026!}
+    api-role: ADMIN
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
